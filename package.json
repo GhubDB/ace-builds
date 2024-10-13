@@ -1,5 +1,5 @@
 {
-    "name": "ace-builds",
+    "name": "ace-builds-vitris",
     "main": "./src-noconflict/ace.js",
     "typings": "ace.d.ts",
     "version": "1.36.2",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ajaxorg/ace-builds.git"
+        "url": "https://github.com/GhubDB/ace-builds"
     },
     "author": "",
     "license": "BSD-3-Clause",
