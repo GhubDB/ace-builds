@@ -1825,6 +1825,7 @@ var vimApi = {
     defineMotion: defineMotion,
     defineAction: defineAction,
     defineOperator: defineOperator,
+    getOperator: getOperator,
     mapCommand: mapCommand,
     _mapCommand: _mapCommand,
     defineRegister: defineRegister,
@@ -3321,6 +3322,9 @@ var operators = {
 function defineOperator(name, fn) {
     operators[name] = fn;
 }
+function getOperator(name) {
+    return operators[name];
+};
 var actions = {
     jumpListWalk: function (cm, actionArgs, vim) {
         if (vim.visualMode) {
